@@ -1,0 +1,68 @@
+/* Basic reset for margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ec00e0;
+  }
+  
+  /* Dropdown container styling */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown button styling */
+  .dropbtn {
+    background-color: #ee08a1; /* Green background */
+    color: white; /* White text */
+    border: none;
+    padding: 20px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px black;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(226, 2, 69), 2, 69), 2, 69);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f30b6c;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change button background color on hover */
+  .dropdown:hover .dropbtn {
+    background-color: #f80542;
+  }
+  
